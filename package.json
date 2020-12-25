@@ -1,0 +1,33 @@
+{
+  "name": "lily",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.njk -p 8080",
+    "build": "parcel build src/index.njk",
+    "fix-cs": "prettier . --config prettier.config.js --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haberkamp/lily.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haberkamp/lily/issues"
+  },
+  "homepage": "https://github.com/Haberkamp/lily#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "install": "^0.13.0",
+    "npm": "^6.14.10",
+    "nunjucks": "^3.2.2",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nunjucks": "^2.2.2"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}

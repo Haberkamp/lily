@@ -1,0 +1,19 @@
+# build and cache directories
+dist/
+.cache/
+
+# Nunjucks templates
+src/**/*.njk
+
+# vendor files
+src/scripts/vendors/**/*
+src/styles/vendors/**/*
+
+# config files
+*.config.js
+.gitignore
+.prettierignore
+.browserlistrc
+
+# npm related files
+package*.json
