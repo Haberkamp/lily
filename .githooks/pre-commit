@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./node_modules/.bin/prettier . --config prettier.config.js --check
