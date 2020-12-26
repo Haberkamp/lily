@@ -13,10 +13,14 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    {% block base_body %}{% endblock %}
+    <div class='min-vh-100'>
+        {% block base_body %}{% endblock %}
+    </div>
 
-    {# bootstrap 5 #}
-    <script src="scripts/vendors/bootstrap.bundle.min.js"></script>
+    {% import "./templates/layout/footer.njk" as footer %}
+
+    {% set items = [{ content: 'Impress', path: '#impress' }, { content: 'Contact', path: '#contact' }, { content: 'Copyright', path: '#copyright' }] %}
+    {{ footer.items(items) }}
 
     <script src="scripts/index.js"></script>
 </body>

@@ -1,2 +1,7 @@
 @import './abstracts/variables.css';
 @import './abstracts/utilities.css';
+
+@import './base/base.css';
+@import './base/typography.css';
+
+@import './layout/footer.css';
