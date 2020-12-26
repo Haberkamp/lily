@@ -55,7 +55,26 @@
    ========================================================================== */
 
 :root {
+  --li-spacer-0: 0;
+  --li-spacer-1: calc(1rem / 4);
+  --li-spacer-2: calc(1rem / 2);
+  --li-spacer-3: 1rem;
+  --li-spacer-4: calc(1rem * 1.5);
+  --li-spacer-5: calc(1rem * 3);
   --li-spacer-6: calc(1rem * 6);
   --li-spacer-7: calc(1rem * 12);
   --li-spacer-8: calc(1rem * 24);
+}
+
+/* ==========================================================================
+   Media queries
+   ========================================================================== */
+
+:root {
+  --li-media-query-xs: 0px;
+  --li-media-query-sm: 576px;
+  --li-media-query-md: 768px;
+  --li-media-query-lg: 992px;
+  --li-media-query-xl: 1200px;
+  --li-media-query-xxl: 1400px;
 }

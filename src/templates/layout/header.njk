@@ -1,0 +1,23 @@
+{% set items = [{ path: '#about', content: 'About me', isActive: true }, { path: '#resume', content: 'Resume' }, { path: '#portfolio', content: 'Portfolio' }, { path: '#blog', content: 'Blog' }, { path: '#contact', content: 'Contact' }] %}
+
+<header class='bg-grey-100 py-2'>
+    <nav class='navbar navbar-expand-md navbar-light'>
+        <div class='container'>
+            <div class="navbar-brand" href="#"></div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navigation" class='collapse navbar-collapse'>
+                <ul class='navbar-nav mx-auto'>
+                    {% for item in items %}
+                        <li class='nav-item mx-3'>
+                            <a href='{{ item.path }}' class='nav-link {% if item.isActive %} active {% endif %}'>{{ item.content }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
