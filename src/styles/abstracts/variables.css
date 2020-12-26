@@ -1,0 +1,60 @@
+/**
+ * All global variables that are used in the project are defined in this file.
+ *
+ * Bootstrap has some own custom properties.
+ * To see wich click this link: https://getbootstrap.com/docs/5.0/customize/css-variables
+ */
+
+/* ==========================================================================
+   Colors
+   ========================================================================== */
+
+:root {
+    /* Greyscale */
+    --li-color-grey-100: #FDFDFD;
+    --li-color-grey-200: #F6F6F6;
+    --li-color-grey-300: #EAEAEA;
+    --li-color-grey-400: #D6D6D6;
+    --li-color-grey-500: #BCBCBC;
+    --li-color-grey-600: #9B9B9B;
+    --li-color-grey-700: #767676;
+    --li-color-grey-800: #505050;
+    --li-color-grey-900: #272727;
+
+    /* Primary colors */
+    --li-color-primary-100: #4191DC;
+    --li-color-primary-200: #2E86D9;
+    --li-color-primary-300: #1080E8;
+    --li-color-primary-400: #0779E3;
+    --li-color-primary-500: #0070F3;
+    --li-color-primary-600: #026DD1;
+    --li-color-primary-700: #066AC7;
+    --li-color-primary-800: #0063BF;
+    --li-color-primary-900: #064D8F;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+:root {
+    /* Font stacks */
+    --li-font-sans-serif: 'Rubik', Arial, Helvetica, Calibri, sans-serif;
+    --li-font-monospace: 'Roboto Mono', Monaco, Consolas, 'Courier New', sans-serif;
+
+    /* Font weights */
+    --li-font-weight-light: 300;
+    --li-font-weight-base: 400;
+    --li-font-weight-medium: 500;
+    --li-font-weight-bold: 700;
+}
+
+/* ==========================================================================
+   Spacing
+   ========================================================================== */
+
+:root {
+    --li-spacer-6: calc(1rem * 6);
+    --li-spacer-7: calc(1rem * 12);
+    --li-spacer-8: calc(1rem * 24);
+}

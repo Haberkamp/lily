@@ -1,0 +1,80 @@
+/**
+ * In here all utilities will be saved.
+ *
+ * Bootstrap already provides a bunch of utilities that can be used.
+ * https://getbootstrap.com/docs/5.0/utilities/api/
+ */
+
+/* ==========================================================================
+   Spacing
+   ========================================================================== */
+
+/* Margin
+   ========================================================================== */
+
+.mt-6 {
+    margin-top: var(--li-spacer-6);
+}
+
+.me-6 {
+    margin-right: var(--li-spacer-6);
+}
+
+.mb-6 {
+    margin-bottom: var(--li-spacer-6);
+}
+
+.ms-6 {
+    margin-left: var(--li-spacer-6);
+}
+
+.mt-7 {
+    margin-top: var(--li-spacer-7);
+}
+
+.me-7 {
+    margin-right: var(--li-spacer-7);
+}
+
+.mb-7 {
+    margin-bottom: var(--li-spacer-7);
+}
+
+.ms-7 {
+    margin-left: var(--li-spacer-7);
+}
+
+/* Padding
+   ========================================================================== */
+
+.pt-6 {
+    padding-top: var(--li-spacer-6);
+}
+
+.pe-6 {
+    padding-right: var(--li-spacer-6);
+}
+
+.pb-6 {
+    padding-bottom: var(--li-spacer-6);
+}
+
+.ps-6 {
+    padding-left: var(--li-spacer-6);
+}
+
+.pt-7 {
+    padding-top: var(--li-spacer-7);
+}
+
+.pe-7 {
+    padding-right: var(--li-spacer-7);
+}
+
+.pb-7 {
+    padding-bottom: var(--li-spacer-7);
+}
+
+.ps-7 {
+    padding-left: var(--li-spacer-7);
+}
