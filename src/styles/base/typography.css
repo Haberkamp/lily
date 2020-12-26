@@ -3,11 +3,11 @@
 
 a,
 .link-primary {
-    color: var(--li-color-primary-500);
-    outline-color: var(--li-color-primary-500);
+  color: var(--li-color-primary-500);
+  outline-color: var(--li-color-primary-500);
 }
 
 .link-dark {
-    color: var(--li-color-grey-900);
-    outline-color: var(--li-color-grey-900);
+  color: var(--li-color-grey-900);
+  outline-color: var(--li-color-grey-900);
 }

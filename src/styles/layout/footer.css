@@ -1,7 +1,7 @@
 footer .nav-link:hover {
-    background-color: var(--li-color-grey-300);
+  background-color: var(--li-color-grey-300);
 }
 
 footer .nav-link:active {
-    background-color: var(--li-color-grey-400);
+  background-color: var(--li-color-grey-400);
 }
