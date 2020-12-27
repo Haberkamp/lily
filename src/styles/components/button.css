@@ -1,0 +1,26 @@
+.btn-primary {
+  background-color: var(--li-color-primary-500);
+  border-color: var(--li-color-primary-500);
+  color: var(--li-color-grey-100);
+}
+
+.btn-primary:hover {
+  background-color: var(--li-color-primary-600);
+  border-color: var(--li-color-primary-600);
+}
+
+.btn-primary:focus {
+  background-color: var(--li-color-primary-700);
+  border-color: var(--li-color-primary-700);
+}
+
+.btn-outline-primary {
+  border-color: var(--li-color-primary-500);
+  color: var(--li-color-primary-500);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--li-color-primary-500);
+  border-color: var(--li-color-primary-500);
+  color: var(--li-color-grey-100);
+}

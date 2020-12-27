@@ -1,0 +1,12 @@
+.slide-y-infinite {
+  animation: slide-y 1.5s ease-in-out infinite alternate both;
+}
+
+@keyframes slide-y {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}

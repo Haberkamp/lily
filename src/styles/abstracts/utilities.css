@@ -44,6 +44,40 @@
   margin-left: var(--li-spacer-7);
 }
 
+@media (min-width: 768px) {
+  .mt-md-6 {
+    margin-top: var(--li-spacer-6) !important;
+  }
+
+  .me-md-6 {
+    margin-right: var(--li-spacer-6) !important;
+  }
+
+  .mb-md-6 {
+    margin-bottom: var(--li-spacer-6) !important;
+  }
+
+  .ms-md-6 {
+    margin-left: var(--li-spacer-6) !important;
+  }
+
+  .mt-md-7 {
+    margin-top: var(--li-spacer-7) !important;
+  }
+
+  .me-md-7 {
+    margin-right: var(--li-spacer-7) !important;
+  }
+
+  .mb-md-7 {
+    margin-bottom: var(--li-spacer-7) !important;
+  }
+
+  .ms-md-7 {
+    margin-left: var(--li-spacer-7) !important;
+  }
+}
+
 /* Padding
    ========================================================================== */
 
@@ -239,4 +273,30 @@
 
 .bg-primary-900 {
   background-color: var(--li-color-primary-900);
+}
+
+/* ==========================================================================
+   Visibility
+   ========================================================================== */
+
+@media (min-width: 992px) {
+  .lg-visible {
+    visibility: visible !important;
+  }
+}
+
+/* ==========================================================================
+   Width
+   ========================================================================== */
+
+@media (min-width: 768px) {
+  .w-md-75 {
+    width: 75% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-lg-auto {
+    width: auto !important;
+  }
 }

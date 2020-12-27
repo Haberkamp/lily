@@ -1,1 +1,26 @@
 {% extends './base.njk' %}
+
+{% block base_body %}
+    <section class='container section-index'>
+        <div class='row mt-5 mt-md-6'>
+            <div class='col-lg-6 col-12 d-flex justify-content-end'>
+                <div class='mx-auto ms-lg-0 me-lg-5'>
+                    {% include "./templates/components/profile.njk" %}
+                </div>
+            </div>
+            <div class='col-lg-4 col-12 mx-auto mt-5 mt-md-0 mx-lg-0'>
+                <span class='subline'>Web Developer</span>
+                <h1>Lily James</h1>
+                <p class='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Imperdiet nulla malesuada pellentesque elit eget gravida.</p>
+                <button class='btn btn-outline-primary'>Work</button>
+                <button class='btn btn-primary ms-2'>Download CV</button>
+            </div>
+        </div>
+        <div class='row' style='margin-top: 160px'>
+            <div class='flex-column align-items-center d-none d-lg-flex'>
+                <span class='text-grey-700 mb-2'>Scroll Down</span>
+                <i class="text-grey-900 bi-arrow-down fs-4 slide-y-infinite"></i>
+            </div>
+        </div>
+    </section>
+{% endblock %}
